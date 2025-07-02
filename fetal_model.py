@@ -77,7 +77,7 @@
     "\n",
     "\n",
     "# Load dataset\n",
-    "df = pd.read_csv(\"C:\\\\New folder\\\\Downloads\\\\Logapriya\\\\Logapriya\\\\fetal_health.csv\")  \n",
+    "df = pd.read_cs("fetal_health.csv")  \n",
     "print(df.head())\n",
     "print(df['fetal_health'].value_counts())  # Check distribution of classes\n"
    ]
