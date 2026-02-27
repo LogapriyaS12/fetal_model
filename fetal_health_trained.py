@@ -33,3 +33,7 @@ label_map = {
     2: "3 - Pathological"
 }
 print("\n🧠 Predicted Fetal Health Class:", label_map[prediction])
+
+import joblib    
+joblib.dump(rf_model, 'rf_model.pkl')
+joblib.dump(scaler, 'scaler.pkl')
